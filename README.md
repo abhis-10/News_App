@@ -15,41 +15,23 @@ Built with React.js — this app shows news headlines, article details, and work
  Responsive UI built with React
  Sample output stored for testing
 
- ### Project Structure
+## Project Architecture
 
- ```mermaid
+```mermaid
+graph TD
     A[News_App] --> B[public]
     B --> B1[index.html]
 
     A --> C[src]
     C --> C1[components]
-    C1 --> C1a[Reusable UI Components]
-
     C --> C2[pages]
-    C2 --> C2a[Home Page]
-    C2 --> C2b[News Details Page]
-
     C --> C3[services]
-    C3 --> C3a[News API Service]
-
     C --> C4[styles]
-    C4 --> C4a[CSS Files]
-
     C --> C5[App.js]
-    C5 --> C2
-    C5 --> C1
-    C5 --> C3
 
-    A --> D[sampleoutput.json]
-    D --> D1[Mock API Response]
-
-    A --> E[package.json]
-    E --> E1[Dependencies & Scripts]
-
-    A --> F[package-lock.json]
-    A --> G[README.md]
-    A --> H[.gitignore]
+    C3 --> API[News API]
 ```
+
 ### Getting Started
 
 -git clone https://github.com/abhis-10/News_App.git
