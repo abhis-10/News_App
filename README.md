@@ -1,7 +1,7 @@
 
 ![Screenshot (37)](https://github.com/user-attachments/assets/a409ded4-ee5b-4f17-9a97-27993806f3c7)
 
-News_App
+### News_App
 
 A NewsApp is a dynamic application designed to fetch and display the latest news articles from various sources via APIs.
 
@@ -31,13 +31,12 @@ graph TD
 
     C3 --> API[News API]
 ```
-
 ### Getting Started
 
--git clone https://github.com/abhis-10/News_App.git
--cd News_App
--npm install
--npm start
+1. git clone https://github.com/abhis-10/News_App.git
+2. cd News_App
+3. npm install
+4. npm start
 
 ## Sample API Response
 
