@@ -8,12 +8,11 @@ A NewsApp is a dynamic application designed to fetch and display the latest news
 Built with React.js — this app shows news headlines, article details, and works with a news API (e.g., NewsAPI). You can use your own API key to get live news data.
 
 ### Features
-
- Fetches latest news articles via API
- Displays news in a user-friendly list
- View detailed article information
- Responsive UI built with React
- Sample output stored for testing
+ 1. Fetches latest news articles via API
+ 2. Displays news in a user-friendly list
+ 3. View detailed article information
+ 4. Responsive UI built with React
+ 5. Sample output stored for testing
 
 ## Project Architecture
 
